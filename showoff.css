@@ -1,0 +1,14 @@
+.bullets ul li {
+  text-align: left;
+}
+
+.smbullets ul li {
+  text-align: left;
+}
+
+@media screen {
+
+  .slide {
+    font-size: 2em;
+  }
+}

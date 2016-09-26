@@ -1,0 +1,7 @@
+{ "name": "What to expect when you are Clojure Specing",
+  "highlight": "solarized_dark",
+  "sections": [
+      {"section":"spec_clojure/intro"},
+      {"section":"spec_clojure/nested-map"},
+      {"section":"spec_clojure/outro"}
+  ]}
