@@ -5,7 +5,7 @@
     @@@ clojure
     {:street  "563 Willow Ave",
      :city    "Madison",
-     :state   "Wi",
+     :state   "WI",
      :zipcode 69728,
      :persons [{:person-id  #uuid "1b0aa65f-9f58-46fa-ad3a-f568ee5dd882",
                 :first-name "Jane",
@@ -61,7 +61,7 @@
                       "563 Willow Ave"
                       "42 Deep Thought Way"})
     (s/def ::city #{"Madison" "Green Bay" "Milwakuee"})
-    (s/def ::state #{"Wi"})
+    (s/def ::state #{"WI"})
     (s/def ::zipcode (s/int-in 10000 99999))
     (s/def ::persons (s/coll-of ::person))
 
@@ -111,7 +111,7 @@
     ; =>
     {:street  "42 Deep Thought Way",
      :city    "Milwakuee",
-     :state   "Wi",
+     :state   "WI",
      :zipcode 10006,
      :persons [{:person-id  #uuid "5de50d62-3fe9-4b45-a3c1-539274b43aef",
                 :first-name "Jane",
@@ -141,7 +141,7 @@
     @@@ clojure
     {:street  "563 Willow Ave",
 	 :city    "Madison",
-	 :state   "Wi",
+	 :state   "WI",
 	 :zipcode 69728,
 	 :persons [{:person-id  #uuid "1b0aa65f-9f58-46fa-ad3a-f568ee5dd882",
 				:first-name "Jane",
@@ -174,18 +174,18 @@
 <br />
 <br />
 # What do `:in`, `:via` and `:path` tell us?
-## ¯\_(ツ)_/¯ their all synonyms of each other?
+## ¯&#92;\_(ツ)\_/¯ they're all synonyms of each other?
 
 !SLIDE
 
 # `:in` tells us the path through the map to get the `:val`
 
 	@@@ clojure
-	(get-in[:persons 1 :pet :id] bad-house) ; => 3
+	(get-in [:persons 1 :pet :id] bad-house) ; => 3
 
     {:street  "563 Willow Ave",
 	 :city    "Madison",
-	 :state   "Wi",
+	 :state   "WI",
 	 :zipcode 69728,
 	 :persons [{:person-id  #uuid "1b0aa65f-9f58-46fa-ad3a-f568ee5dd882",
 				:first-name "Jane",
