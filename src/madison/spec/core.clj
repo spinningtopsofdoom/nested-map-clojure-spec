@@ -62,7 +62,7 @@
    (s/with-gen ::person-id
                #(gen/frequency [[10 gen/pos-int]
                                 [1 gen/uuid]]))
-  (pprint/pprin`t (gen/sample (s/gen ::person-id) 5))
+  (pprint/pprint (gen/sample (s/gen ::person-id) 5))
    ; Create updated house nested map
             {:street  "563 Willow Ave",
              :city    "Milwakuee",
