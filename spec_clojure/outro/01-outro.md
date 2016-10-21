@@ -1,7 +1,7 @@
 !SLIDE
 
 # There's much more depth to `clojure.spec`
-## It's already proving incredibly helpful in API data structure validation an area that really needed the help
+## It's already proving incredibly helpful in API data structure validation -- an area that really needed the help
 
 !SLIDE
 
