@@ -2,7 +2,7 @@
 
 ## Running Talk slides
 
-Run `showoff serve` to run slide show
+Make sure you've `bundle install`ed and then run `showoff serve` to run slide show.
 
 
 ### License
