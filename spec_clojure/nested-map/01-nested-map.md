@@ -181,7 +181,7 @@
 # `:in` tells us the path through the map to get the `:val`
 
 	@@@ clojure
-	(get-in[:persons 1 :pet :id] bad-house) ; => 3
+	(get-in [:persons 1 :pet :id] bad-house) ; => 3
 
     {:street  "563 Willow Ave",
 	 :city    "Madison",
