@@ -174,7 +174,7 @@
 <br />
 <br />
 # What do `:in`, `:via` and `:path` tell us?
-## ¯\_(ツ)_/¯ their all synonyms of each other?
+## ¯&#92;\_(ツ)\_/¯ their all synonyms of each other?
 
 !SLIDE
 
